@@ -56,7 +56,7 @@ public:
          StandbyTime _st = StandbyTime_1000ms,
          Filter _filter  = Filter_16,
          SpiEnable _se   = SpiEnable_False,
-         I2CAddr _addr   = I2CAddr_0x76
+         I2CAddr _addr   = I2CAddr_0x77
         ): BME280::Settings(_tosr, _hosr, _posr, _mode, _st, _filter, _se),
            bme280Addr(_addr) {}
 
